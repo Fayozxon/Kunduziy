@@ -1,3 +1,10 @@
+// Preloader Scripts
+let loader = document.getElementById('loader');
+
+window.addEventListener('load', function() {
+    loader.classList.add('loaded');
+});
+
 // Header Scripts
 let header = document.getElementById('header');
 let menuBtn = document.getElementById('menuBtn');
