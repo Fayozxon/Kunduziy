@@ -108,6 +108,7 @@
 }
 .loader.loaded {
   opacity: 0;
+  pointer-events: none;
 }
 .loader h3 {
   position: absolute;
